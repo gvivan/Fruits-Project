@@ -32,6 +32,9 @@ async function run() {
     ])
 
     console.log("Inserted 3 documents to the collection.");
+
+    console.log("Found the following records:");
+    console.log(await collection.find().toArray());
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();
