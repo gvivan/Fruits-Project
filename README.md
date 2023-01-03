@@ -1,3 +1,3 @@
 # Fruits-Project
 
-This project works with the Native MongoDB Driver
+This project uses the Native MongoDB Driver at first, then is refactored to use mongoose.
